@@ -13,7 +13,7 @@ sys.path.append(os.path.join(PARENT_DIR, 'Generated'))
 
 import ServerSideExtension_pb2 as SSE
 import grpc
-from ScriptEval_script import ScriptEval
+from scripteval import ScriptEval
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
 

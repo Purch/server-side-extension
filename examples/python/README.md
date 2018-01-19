@@ -99,7 +99,7 @@ If you are interested in implementing a plugin that supports all script function
 
 ```python
 import ServerSideExtension_pb2 as SSE
-from ScriptEval_helloworld import ScriptEval
+from scripteval import ScriptEval
 
 class ExtensionExpression(SSE.ConnectiorServicer):
     ...
